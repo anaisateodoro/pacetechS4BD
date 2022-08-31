@@ -25,12 +25,12 @@ Nessa jornada de semanas de codificação do projeto, tal aplicativo de tarefas 
 
 ---
 
-## Revisão para o projeto TodoApp
+# Revisão para o projeto TodoApp
 
-[x] Criação do banco de dados 😃
-[x] Criação das classes do modelo 😃
-[ ] Criação da conexão com o banco de dados.
-[ ] Criação das classes de controle (acesso aos dados do banco).
+- [x] Criação do banco de dados 😃.
+- [x] Criação das classes do modelo 😃.
+- [ ] Criação da conexão com o banco de dados.
+- [ ] Criação das classes de controle (acesso aos dados do banco).
 
 
 #### Métodos
@@ -38,7 +38,11 @@ Nessa jornada de semanas de codificação do projeto, tal aplicativo de tarefas 
 Mais usados nestas duas classes criadas:
 
 * Contructor (o método construtor pode receber parâmetros);
+![constructor](https://user-images.githubusercontent.com/70113922/187590031-c1fb584c-3075-41c6-ba93-e77e9fb36018.PNG)
+
 * Getters & Setters (métodos que alteram valores de atributos são chamados de setters, e métodos que obtêm o valor dos atributos são chamados getters);
+![selecionadoTodosAtributos_Tarefa](https://user-images.githubusercontent.com/70113922/187590044-0988d080-9100-497d-b969-d9f874853c34.PNG)
+
 * Generation toString()(é trazer uma representação textual de uma instância de um objeto);
 
 ### Padrão de projeto é o MVC
