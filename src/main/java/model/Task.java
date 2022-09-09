@@ -16,10 +16,12 @@ public class Task {
   private Date deadline;
   private Date createdAt;
   private Date updatedAt;
+    private final String name;
 
-    public Task(int id, int idProject, String description, String notes, boolean isCompleted, Date deadline, Date createdAt, Date updatedAt) {
+    public Task(int id, int idProject, String name, String description, String notes, boolean isCompleted, Date deadline, Date createdAt, Date updatedAt) {
         this.id = id;
         this.idProject = idProject;
+        this.name = name;
         this.description = description;
         this.notes = notes;
         this.isCompleted = isCompleted;
@@ -27,6 +29,13 @@ public class Task {
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
     }
+    /*
+      public Task() {
+        this.createdAt = new Date();
+      }
+*/
+      
+    
 //Getters e Setters
     public int getId() {
         return id;
@@ -95,6 +104,10 @@ public class Task {
     @Override
     public String toString() {
         return "Task{" + "id=" + id + ", idProject=" + idProject + ", description=" + description + ", notes=" + notes + ", isCompleted=" + isCompleted + ", deadline=" + deadline + ", createdAt=" + createdAt + ", updatedAt=" + updatedAt + '}';
+    }
+
+    public String getName() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
   
   
