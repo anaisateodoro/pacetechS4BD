@@ -19,7 +19,7 @@ Aí já fica tal _task_ para registrarmos em nosso TodoApp ❤️ que vamos dese
 * Adotando a assertividade em nosso comportamento e comunicação.
 * Usando a empatia para compreender o grupo e de como resolver uma situação adversa.
 * Buscando apoio das pessoas e;
-* Por último, procurar aprender continuamente coma as situações.
+* Por último, procurar aprender continuamente com as situações.
 
 Nessa jornada de semanas de codificação do projeto, tal aplicativo de tarefas vai ajudar-me a facilitar e a registrar que a resiliência é uma conquista a cada nova situação e fica aqui, o desejo de registrar a primeira task do nosso TodoApp em Java de listar o autodenvolvimento.
 
@@ -44,6 +44,10 @@ Mais usados nestas duas classes criadas:
 ![selecionadoTodosAtributos_Tarefa](https://user-images.githubusercontent.com/70113922/187590044-0988d080-9100-497d-b969-d9f874853c34.PNG)
 
 * Generation toString()(é trazer uma representação textual de uma instância de um objeto);
+
+* Criação da Interface Gráfica da tela do Todo App
+
+
 
 ### Padrão de projeto é o MVC
 Como criamos a classe de modelo de uma aplicação Java, seguiremos uma padronização de projeto MVC que significa _Model|View|Controller_
