@@ -46,7 +46,7 @@ Mais usados nestas duas classes criadas:
 * Generation toString()(é trazer uma representação textual de uma instância de um objeto);
 
 * Criação da Interface Gráfica da tela do Todo App
-
+![interfaceGrafica](https://user-images.githubusercontent.com/70113922/189276126-eb73a64a-2d20-4ffc-a27e-364b391a2bf9.PNG)
 
 
 ### Padrão de projeto é o MVC
