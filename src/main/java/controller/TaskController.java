@@ -48,8 +48,8 @@ public class TaskController {
      }
      
            
-        }
-/*            
+}
+
        public void update(Task task) {
        String sql = "UPDATE tasks SET"
 + "idProject = ?, "
@@ -82,7 +82,9 @@ try {
         } catch (Exception ex) {
         throw new RuntimeException("Erro ao deletar a tarefa" + ex.getMessage(), ex);
 
+
 }
+
           
      public void removeById(int taskId) throws SQLException{         
         String sql = "DELETE FROM tasks WHERE id = ?";
@@ -144,5 +146,5 @@ try {
 
      return tasks;
 }
-*/
+
 
