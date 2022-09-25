@@ -13,7 +13,7 @@ import util.ConnectionFactory;
  * @author Anaísa
  */
 public class ProjectController {
-    /* push novamente para semana-6 */
+    /* push novamente para semana-6git status */
 
  public void save(Project project) {
         String sql = "INSERT INTO projects(name, description, createdAt, updatedAt) VALUES (?, ?, ?, ?)";
